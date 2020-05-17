@@ -1,0 +1,22 @@
+title: Spytify
+project_name: spy-spotify
+owner_name: spytify
+description: "Records Spotify to mp3 without ads while it plays and includes media tags to the recorded files"
+show_downloads: true
+reddit_url: "https://www.reddit.com/r/spytify/"
+repository_url: "https://www.github.com/spytify/spy-spotify/"
+repository_download: "https://www.github.com/spytify/spy-spotify/releases/latest/"
+owner_url: "https://www.github.com/spytify/"
+url: "https://spytify.github.io/web/"
+logo: "https://raw.githubusercontent.com/spytify/spy-spotify/master/psd/logo.png"
+lang: "en-CA"
+exclude: ['faq/', 'LICENSE', 'README.md', 'EspionSpotify/', 'EspionSpotify.Tests/', 'packages/', '_site/', '.jekyll-cache/', '.vs/']
+sass:
+  sass_dir: _sass
+  style: compressed
+collections:
+  faq:
+    output: true
+baseurl: /web
+port: 4000
+livereload: true
